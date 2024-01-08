@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>,", vim.cmd.Ex)
-vim.keymap.set("i", "kj", '<ESC>')
+vim.keymap.set("i", "jk", '<ESC>')
 
 -- allows to move selected block
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
