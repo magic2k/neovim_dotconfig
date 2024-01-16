@@ -142,13 +142,12 @@ use({
     "edmondburnett/leeward.nvim",
     config = function()
         -- support both dark and light style
-        vim.o.background = "dark"
-
+        -- vim.o.background = "dark"
         -- setup color palette
         require("leeward").setup()
 
         -- load colorscheme
-        require("leeward").load()
+     --   require("leeward").load()
     end,
 })
 use 'louisboilard/pyramid.nvim'
